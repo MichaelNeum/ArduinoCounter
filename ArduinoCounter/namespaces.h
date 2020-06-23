@@ -1,6 +1,7 @@
 namespace registerDefinitions
 {
-  constexpr byte useExternalClock = 0b00000111; //TCCR1B
+  constexpr int useExternalClockB = 0b00000111; //TCCR1B
+  constexpr int useExternalClockA = 0;
 }
 namespace datatypes
 {

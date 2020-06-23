@@ -1,14 +1,11 @@
 #include "namespaces.h"
+#include <Arduino.h>
 
 using namespace datatypes;
 
 class CounterClass
 {
   public:
-    CoutnerClass() {
-      init();
-    }
-    c_type getCount();
-  private:
     void init();
+    c_type getCount();
 };
